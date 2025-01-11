@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212; /* Dark theme background */
+  color: #e0e0e0; /* Light text for dark theme */
+  margin: 0;
+  padding: 0;
+}
+
+.home-container, .vault-container {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Dark header */
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header button {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.header button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.form-container {
+  background: #1f1f1f; /* Dark form background */
+  padding: 30px 50px; /* Make the form a bit longer */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #fff; /* Title color */
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0px;
+  border: 1px solid #444; /* Darker input borders */
+  border-radius: 5px;
+  background-color: #333; /* Darker background for inputs */
+  color: #fff; /* White text in inputs */
+}
+
+.form-container input::placeholder {
+  color: #ffffff; /* Light placeholder text */
+}
+
+.form-container button {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.form-container p {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.form-container span {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-container span:hover {
+  text-decoration: underline;
+}
+/* Add this to your App.css or HomePage.css */
+.home-container a {
+  color: #28a745; /* Green color */
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+}
+
+.home-container a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* VaultItem.css */
+
+/* Container box for each vault item */
+.vault-item {
+    background-color: #2b2b2b; /* Slightly lighter dark background */
+    color: #ffffff; /* White text */
+    padding: 20px; /* Add some padding */
+    margin: 15px auto; /* Space between each item */
+    border-radius: 10px; /* Rounded corners for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+    max-width: 500px; /* Width of the item */
+    border: 1px solid #444; /* Thin border to define the box */
+  }
+  
+  /* Add spacing and alignment for fields */
+  .vault-field {
+    font-size: 1.1rem; /* Slightly larger text for better readability */
+    margin: 10px 0; /* Add vertical spacing between fields */
+    line-height: 1.6; /* Improve text spacing */
+  }
+  
+  /* Style the delete button */
+  .delete-btn {
+    background-color: #ff4d4d; /* Red background for the button */
+    color: white; /* White text for contrast */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 0.9rem; /* Slightly smaller text */
+    display: block; /* Make the button occupy a new line */
+    margin-top: 15px; /* Add space above the button */
+  }
+  
+  /* Hover effect for the delete button */
+  .delete-btn:hover {
+    background-color: #d93636; /* Darker red on hover */
+  }
+  
+  /* Add a smooth transition for hover effects */
+  .vault-item,
+  .delete-btn {
+    transition: all 0.3s ease;
+  }
+  
