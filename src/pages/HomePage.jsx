@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div className="home-container">
       <header>
-        <h1>VaultCipher - Decentralized Password Manager</h1>
+        <h1>BlockVault - Decentralized Password Manager</h1>
       </header>
       {showLogin ? (
         <>
